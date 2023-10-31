@@ -40,7 +40,7 @@ You are tasked to develop a web application that allows users to upload a PDF fi
  For frontend:
    1) Open cmd
    2) Install dependencies mentioned above modules
-   3) To run the code **"npm start"**
+   3) To run the code (App.js) **"npm start"**
 
  For backend:
     1) open cmd
