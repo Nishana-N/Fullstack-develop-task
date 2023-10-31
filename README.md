@@ -18,23 +18,23 @@ You are tasked to develop a web application that allows users to upload a PDF fi
 **Modules Used**
 --> **For frontend download** 
 "dependencies":
-    "axios": "^1.6.0",
-    "bootstrap": "^5.3.2",
-    "jquery": "^3.7.1",
-    "pdf-lib": "^1.17.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.17.0",
+    1) "axios": "^1.6.0",
+    2) "bootstrap": "^5.3.2",
+    3) "jquery": "^3.7.1",
+    4) "pdf-lib": "^1.17.1",
+    5) "react": "^18.2.0",
+    6) "react-dom": "^18.2.0",
+    7) "react-router-dom": "^6.17.0",
     
 --> **For backend download** 
 "dependencies":
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1",
-    "pdf-lib": "^1.17.1",
-    "pdf2json": "^3.0.4",
-    "pdfkit": "^0.13.0"
+    1) "body-parser": "^1.20.2",
+    2) "cors": "^2.8.5",
+    3) "express": "^4.18.2",
+    4) "multer": "^1.4.5-lts.1",
+    5) "pdf-lib": "^1.17.1",
+    6) "pdf2json": "^3.0.4",
+    7) "pdfkit": "^0.13.0"
 
  **Steps to execute the code**
  For frontend:
