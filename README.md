@@ -14,3 +14,39 @@ You are tasked to develop a web application that allows users to upload a PDF fi
 2) Create a REST API to retrieve the stored PDF file for display.
 3) Implement a REST API to extract the selected pages from the original PDF and create a new PDF. You can use any PDF library to achieve this in the Node.js framework you use.
 4) Ensure all APIs work correctly and handle potential errors.
+
+**Modules Used**
+--> **For frontend download** 
+"dependencies":
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    
+--> **For backend download** 
+"dependencies":
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1",
+    "pdf2json": "^3.0.4",
+    "pdfkit": "^0.13.0"
+
+ **Steps to execute the code**
+ For frontend:
+   1) Open cmd
+   2) Install dependencies mentioned above modules
+   3) To run the code **"npm start"**
+
+ For backend:
+    1) open cmd
+    2) Install dependencies mentioned above modules
+    3) To run the code **"node backend.js"**
+
+  To connect both frontend and backend 2 cmd needs to open at a sme time  
+    
+ 
