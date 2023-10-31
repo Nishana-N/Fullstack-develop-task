@@ -47,6 +47,6 @@ You are tasked to develop a web application that allows users to upload a PDF fi
     2) Install dependencies mentioned above modules
     3) To run the code **"node backend.js"**
 
-  To connect both frontend and backend 2 cmd needs to open at a sme time  
+  To connect both frontend and backend 2 cmd needs to open at a same time  
     
  
