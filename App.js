@@ -1,26 +1,12 @@
-import logo from './logo.svg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js'
 import './App.css';
-import Hello from './hello';
-import Navcomponent from './navcomponent';
-import Footer from './footer';
-import About from './about';
-import Fruit from './fruit';
-// import React from 'react';
 import * as $ from 'jquery';
-
-
-
-
 
  import React, { useEffect, useState } from 'react';
  import axios from 'axios';
  import {Pdf} from 'pdf-lib';
-
-
-
-
 
  function App() {
   const [pdfFile, setPdfFile] = useState(null);
@@ -32,7 +18,6 @@ import * as $ from 'jquery';
 
 useEffect(() => {
   fetch("http://localhost:4000/backend")
-  // .then((response)=> response.json())
   .then((data)=>setPdfFile(data.pdfFile))
 })
 
@@ -112,13 +97,6 @@ const pageNumber = parseInt(e.target.name);
       {newPdfUrl && <a href={handleDownload}>Download New PDF</a>}
     </div>
 
-    // <div>
-   //<Navcomponent></Navcomponent>
-   // <Hello></Hello>
-  // <About></About>
-  // <Fruit></Fruit>
-  // <Footer></Footer>
-   //</div>
   );
     
 
